@@ -1,0 +1,22 @@
+#运行一下有惊喜！！！
+
+import numpy as np
+print("---为什么要学习---")
+print("\n\n\t为了变得")
+print('\n')
+n = np.ones((12,10), dtype='f')
+n[2:10, 3] = 0
+n[2:10, 7] = 0
+n[2, 3:7] = 0
+print(n)
+print('\n')
+b = np.ones((12,10), dtype = 'f')
+b[2:10,4] = 0
+
+b[6,5]=0
+b[6,6]=0
+b[7,7]=0
+b[8,7]=0
+b[9,6]=0
+b[9,5] = 0
+print(b)
